@@ -16,6 +16,7 @@
 		C9D7013913BAC6A300AA83A8 /* CalculatorViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = C9D7013813BAC6A300AA83A8 /* CalculatorViewController.h */; };
 		C9D7013B13BAC6A300AA83A8 /* CalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D7013A13BAC6A300AA83A8 /* CalculatorViewController.m */; };
 		C9D7013E13BAC6A400AA83A8 /* CalculatorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9D7013C13BAC6A400AA83A8 /* CalculatorViewController.xib */; };
+		C9D7014613BAC98100AA83A8 /* CalculatorBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D7014513BAC98100AA83A8 /* CalculatorBrain.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		C9D7013813BAC6A300AA83A8 /* CalculatorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalculatorViewController.h; sourceTree = "<group>"; };
 		C9D7013A13BAC6A300AA83A8 /* CalculatorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorViewController.m; sourceTree = "<group>"; };
 		C9D7013D13BAC6A400AA83A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CalculatorViewController.xib; sourceTree = "<group>"; };
+		C9D7014413BAC98100AA83A8 /* CalculatorBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorBrain.h; sourceTree = "<group>"; };
+		C9D7014513BAC98100AA83A8 /* CalculatorBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorBrain.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +87,8 @@
 				C9D7013A13BAC6A300AA83A8 /* CalculatorViewController.m */,
 				C9D7013C13BAC6A400AA83A8 /* CalculatorViewController.xib */,
 				C9D7012D13BAC6A300AA83A8 /* Supporting Files */,
+				C9D7014413BAC98100AA83A8 /* CalculatorBrain.h */,
+				C9D7014513BAC98100AA83A8 /* CalculatorBrain.m */,
 			);
 			path = Calculator;
 			sourceTree = "<group>";
@@ -165,6 +170,7 @@
 				C9D7013313BAC6A300AA83A8 /* main.m in Sources */,
 				C9D7013713BAC6A300AA83A8 /* CalculatorAppDelegate.m in Sources */,
 				C9D7013B13BAC6A300AA83A8 /* CalculatorViewController.m in Sources */,
+				C9D7014613BAC98100AA83A8 /* CalculatorBrain.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
