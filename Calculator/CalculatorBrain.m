@@ -20,4 +20,19 @@
     return self;
 }
 
+- (void)setOperand:(double)aDouble
+{
+	operand = aDouble;
+}
+
+- (double)performOperation:(NSString *)operation
+{
+	if ([operation isEqual:@"sqrt"])
+	{
+		// TODO: What about negative operands?
+		operand = sqrt(operand);
+	}
+	return operand;
+}
+
 @end

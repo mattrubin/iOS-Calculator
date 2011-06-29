@@ -8,6 +8,11 @@
 
 #import <Foundation/Foundation.h>
 
-@interface CalculatorBrain : NSObject
+@interface CalculatorBrain : NSObject {
+	double operand;
+}
+
+- (void)setOperand:(double)aDouble;
+- (double)performOperation:(NSString *)operation;
 
 @end
